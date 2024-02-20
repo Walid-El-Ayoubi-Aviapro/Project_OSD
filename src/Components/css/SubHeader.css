@@ -1,0 +1,85 @@
+/* SubHeader styles */
+.sub-header {
+  background-color: rgb(112, 58, 112); /* Violet background color */
+  padding: 1px; /* Padding for spacing */
+  height: 45px;
+}
+
+.sub-header-text {
+  color: white; /* White text color */
+  font-size: 12px; /* Adjust the font size to match the Header */
+  font-weight: bold; /* Bold font weight */
+  padding-left: 2%;
+}
+
+.sub-header-content {
+  display: flex;
+  align-items: center;
+}
+
+.sub-header-content button {
+  margin-right: 10px;
+}
+
+/* .info-button {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: rgb(112, 58, 112);
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+} */
+
+.info-button {
+  margin-right: 10px; /* Adjust margin */
+  background-color: rgb(112, 58, 112); /* Adjust background color */
+  color: #ffffff; /* Adjust text color */
+  cursor: pointer;
+  transition: color 0.3s ease;
+  border-radius: 50%; /* Make the button circular */
+  padding: 3px; /* Increase padding */
+
+  /* Position the button */
+  position: absolute;
+  top: 60px; /* Adjust top position */
+  right: 20px; /* Adjust right position */
+}
+
+.info-button:hover {
+  background-color: #ddd;
+}
+
+.sub-header {
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: rgb(112, 58, 112);
+  color: #333;
+}
+
+.sub-header {
+  display: flex;
+  align-items: center;
+}
+
+/* .sub-header button {
+  margin-right: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: rgb(112, 58, 112);
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+} */
+
+.sub-header button:hover {
+  background-color: rgb(112, 58, 112);
+}
+
+.sub-header-text {
+  margin: 0;
+}

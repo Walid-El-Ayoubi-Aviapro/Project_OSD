@@ -1,0 +1,115 @@
+/* Header styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px; /* Reduced padding */
+  background-color: #ffffff;
+  color: rgb(112, 58, 112);
+  height: 40px; /* Adjusted height */
+  border: 1px solid #ccc; /* Add border */
+}
+
+.logo-container {
+  margin-left: 5px; /* Adjusted margin */
+}
+
+.logo {
+  height: 20px; /* Adjusted height of the logo */
+}
+
+/* Adjusted font size for the logo text */
+.logo-text {
+  font-size: 18px; /* Adjust the font size as needed */
+}
+.logo-text small {
+  font-family: Arial, sans-serif; /* Change font family */
+  font-size: 5px; /* Change font size */
+  font-weight: bold; /* Change font weight */
+
+  /* Add any other font-related styles as needed */
+}
+
+.add-item-button {
+  background-color: rgb(112, 58, 112);
+  color: #fff;
+  border: none;
+  padding: 3px 8px; /* Reduced padding */
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-item-button span:first-child {
+  margin-right: 3px; /* Adjusted margin */
+}
+
+.add-item-label {
+  font-weight: bold;
+}
+
+.search-bar-container {
+  position: relative;
+}
+
+.search-bar {
+  padding: 13px 25px; /* Adjusted padding */
+  border-radius: 5px;
+  border: none;
+  height: 2px;
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  right: 8px;
+  transform: translateY(-50%);
+  color: rgb(112, 58, 112);
+  cursor: pointer;
+}
+
+.user-profile-container {
+  margin-right: 5px; /* Adjusted margin */
+}
+
+.user-profile-picture {
+  width: 30px; /* Adjusted width and height of the profile picture */
+  height: 30px;
+  border-radius: 50%;
+  border-color: rgb(112, 58, 112);
+  padding-right: 10%;
+  padding-top: 10%;
+}
+
+.user-profile-container {
+  position: relative;
+}
+
+.profile-picture-container {
+  position: relative;
+  display: inline-block;
+}
+
+.user-menu {
+  position: absolute;
+  top: 100%;
+  right: 0; /* Change 'left' to 'right' */
+  background-color: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border-radius: 5px;
+  z-index: 100;
+  width: 269px; /* Set the width as per your requirement */
+}
+
+.user-menu p {
+  margin: 5px 0;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.menu-title {
+  text-align: center;
+  font-weight: bold;
+}
